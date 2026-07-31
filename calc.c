@@ -40,6 +40,7 @@ double calc_expr_computing (double left_hand, char operator, double right_hand)
           break;
         }
     }
+  return 0.0;
 }
 
 int main()
@@ -50,7 +51,7 @@ int main()
   while ((scanf("%lf %c %lf", &left_hand, &operator, &right_hand)) == 3)
     {
       result = calc_expr_computing(left_hand, operator, right_hand);
-      printf("%lf", result);
+      printf("%lf\n", result);
     }
 }
 
