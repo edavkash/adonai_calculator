@@ -296,8 +296,8 @@ void codegen(Node *node)
             codegen(node->lhs );
             codegen(node->rhs );
             {
-                double lhs = pop();
                 double rhs = pop();
+                double lhs = pop();
                 push(lhs - rhs);
             };
             return;
@@ -305,8 +305,8 @@ void codegen(Node *node)
             codegen(node->lhs );
             codegen(node->rhs );
             {
-                double lhs = pop();
                 double rhs = pop();
+                double lhs = pop();
 
                 if (rhs == 0)
                     error("divisor is equal to zero\n");
