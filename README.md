@@ -8,9 +8,7 @@ Frankly speaking I don't have high hope for this project apart from the fact tha
 about my craft and interest in low level programming.
 
 # Sources
-``
-https://www.gnu.org/software/emacs/manual/html_node/calc/index.html#SEC_Contents
-https://github.com/galculator/galculator.git
-https://github.com/rui314/chibicc
-https://ia600600.us.archive.org/31/items/hybridphilosophy-collection/the_c_programming_language_2.pdf
-``
+
+- **[rui314](https://github.com/rui314/chibicc)**
+- **[Dennis.Ritchie and Brian Kernighan ](https://ia600600.us.archive.org/31/items/hybridphilosophy-collection/the_c_programming_language_2.pdf)**
+
