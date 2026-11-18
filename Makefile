@@ -1,12 +1,16 @@
 CC = cc
 CFLAGS = -ggdb -lm -Wall -Wextra
 
-all: calc.o # index.o
+all: calc.c  index.c main.c
 
 calc:
-	$(CC) $(CFLAGS) -o $@.out calc.o
-# index:
-# 	$(CC) $(CFLAGS) -o $@.out index.o
+	$(CC) $(CFLAGS) -o calc test/calc.c
+
+index:
+	$(CC) $(CFLAGS) -o index test/index.c
+
+main:
+	$(CC) $(CFLAGS) -o main main.c
 
 clean:
-	rm -f *.o *.out
+	rm -f *.o *.out main calc index
