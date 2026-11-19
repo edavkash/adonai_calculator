@@ -7,7 +7,20 @@ This simple calculator can perform addition, subtraction, multiplication, and di
 Frankly speaking I don't have high hope for this project apart from the fact that it is learning project that can get me to know more
 about my craft and interest in low level programming.
 
-# Sources
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+You only need require to have:
+-   `gcc` (GNU Compiler Collection)
+-	`make` (GNU make)
+
+```bash
+make calc
+```
+
+## Sources
 
 - **[rui314](https://github.com/rui314/chibicc)**
 - **[Dennis.Ritchie and Brian Kernighan ](https://ia600600.us.archive.org/31/items/hybridphilosophy-collection/the_c_programming_language_2.pdf)**
