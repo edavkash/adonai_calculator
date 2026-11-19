@@ -17,6 +17,8 @@ You only need require to have:
 -	`make` (GNU make)
 
 ```bash
+git clone https://github.com/edavkash/adonai_calculator.git
+cd adonai_calculator
 make calc
 ```
 
